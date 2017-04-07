@@ -3,7 +3,6 @@ def doit(i,n,s):
     if new_n == 0:
         return 'INSOMNIA'
     s = s.union(set(list(str(new_n))))
-    print('{}:{}'.format(new_n,s))
     if len(s) == 10:
         return new_n
     else:
